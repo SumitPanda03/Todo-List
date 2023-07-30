@@ -1,0 +1,154 @@
+body {
+	background: #b89654;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+	display: flex;
+	justify-content: center; /* Center the content horizontally */
+	align-items: center; /* Center the content vertically */
+	height: 100vh; /* Ensure the content takes the full viewport height */
+  }
+  
+  #wrapper {
+	width: 80%; /* Set a fixed width for the wrapper to control the content's width */
+  }
+  
+  #content {
+	background: #fdf3e7;
+	padding: 25px;
+	margin-top: 20px;
+  }
+  
+  #content > h2 {
+	font-size: 24px;
+	text-align: center;
+	padding-top: 10px;
+	color: #333;
+  }
+  
+  .t10 {
+	margin-top: 10px;
+  }
+  
+  .t20 {
+	margin-top: 20px;
+  }
+  
+  .todo-completed {
+	text-decoration: line-through;
+	background: rgba(149, 165, 166, 0.3);
+	transition: background-color 0.3s ease;
+  }
+  
+  .todo-completed:hover {
+	background: rgba(149, 165, 166, 0.6);
+  }
+  
+  .form-group {
+	width: 80%;
+	max-width: 400px; /* Set a maximum width for the form to avoid stretching on large screens */
+	margin: 0 auto; /* Center the form horizontally */
+  }
+
+  .input-group {
+	position: relative;
+  }
+
+  input[type="text"] {
+	border: none;
+	border-radius: 5px;
+	padding: 12px;
+	width: 100%;
+	font-size: 16px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .btn {
+	border-radius: 5px;
+	font-size: 16px;
+	padding: 10px 20px;
+	background-color: #3498db;
+	color: #fff;
+	border: none;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  }
+
+  .btn:hover {
+	background-color: #2980b9;
+  }
+
+
+  .btn-toolbar {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+  }
+
+  .btn-group {
+	margin: 0 10px; /* Add some spacing between button groups */
+  }
+
+  .btn {
+	font-size: 16px;
+	padding: 8px 15px;
+	background-color: #3498db;
+	color: #fff;
+	border: none;
+	border-radius: 2px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+  }
+
+  .btn-warning {
+	background-color: #e67e22; /* Change the button color to a nice orange */
+  }
+
+  .btn-warning:hover {
+	background-color: #d35400; /* Darken the color on hover */
+  }
+
+  .list-group {
+	width: 80%;
+	max-width: 400px; /* Set a maximum width for the list group to avoid stretching on large screens */
+	margin: 0 auto; /* Center the list group horizontally */
+  }
+
+  .list-group-item {
+	border: none;
+	border-radius: 5px;
+	padding: 12px;
+	font-size: 16px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	background-color: #fff;
+	margin-bottom: 10px; /* Add spacing between list items */
+	transition: background-color 0.3s ease;
+  }
+
+  .list-group-item:hover {
+	background-color: #f5f5f5; /* Lighten the background on hover */
+  }
+
+  .todo-completed {
+	text-decoration: line-through;
+	background: rgba(149, 165, 166, 0.3);
+  }
+
+  ul {
+	/* Add some spacing between list items */
+	padding-left: 20px;
+	margin-top: 60px;
+  }
+  
+  li {
+	margin-bottom: 10px; /* Add spacing below each list item */
+  }
+  
+  footer {
+	margin-top: 30px;
+	background-color: #333;
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+  }
+  
