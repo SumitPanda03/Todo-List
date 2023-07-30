@@ -38,10 +38,6 @@ The TodoList backend project provides the following API endpoints:
 
 The frontend templates are built using HTML and CSS, with dynamic content rendered using Jinja2 templates.
 
-## Authentication
-
-As this is a backend project, it might not include user authentication by default. However, you can extend it to include authentication using Flask extensions like Flask-Login or Flask-JWT.
-
 ## Contribution
 
 Contributions to the TodoList backend project are welcome. If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
